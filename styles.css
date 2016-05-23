@@ -8,8 +8,10 @@ h1 {
 	font-size: 5em;
 	font-weight: bold;
 	font: Georgia;
-	border: 7px dotted black;
-	text-shadow: gray 10px 10px;
+	border: 7px dotted #cc00ff;
+	text-align: center;
+	color: #cc00ff;
+	font-style: italic;
 }
 
 h2 {
@@ -37,4 +39,28 @@ h2 {
 	text-align: center;
 	width: 100%;
 	font-size: 1.7em;
+}
+
+.format1{
+	font-size: 2em;
+}
+
+.format2{
+	font-size: 1.5em;
+}
+
+a:visited {
+    color: green;
+}
+
+.format3{
+	display: block;
+	text-align: center;
+	font-size: 2em;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#form{
+	border: 5px;
 }
