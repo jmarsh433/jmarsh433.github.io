@@ -61,6 +61,25 @@ a:visited {
 	font-weight: bold;
 }
 
-#form{
-	border: 5px;
+
+#stratformat {
+	border: 7px solid black;
 }
+
+ul {
+	text-align: center;
+}
+
+#lespaul {
+	display: block;
+	position: absolute;
+	left: 600px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: orange;
+  }
+}
+
+
