@@ -5,11 +5,14 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<h1>Riff-Win.com</h1>
-<img src="images/srv-fender-strat.jpg" alt="SRV Strat">
-<p>Photo by: Flickr user <a href="https://www.flickr.com/photos/intuitivo/1089286318/in/photolist-2EfSSA-g6uDg-5brGt2-g6uDi-cQ974G-DfboVd-5bvZcC-4ifoom-cs5xjq-7weg5c-cs5wPw-5C28Jz-z7fem-4GycQx-7KquSE-cs5wZ9-6AxSYt-cs5xbo-5gyvBS-9sMtEi-szxt28-4MsfJw-96BRFh-7NdwzR-bE9cjz-5wz1fC-59MvTK-9hZV3C-9x1w1W-AcymNT-9wXwbR-4rB6rr-qKQe3-wHYny-eRBrEH-GpRFqT-5guaJx-7TWiHv-aw2ZUr-9N5rnF-M5naR-nNYT2t-7exck7-nQKEdV-59NJEA-myUXdp-oknWzy-BQjYTr-nM1HPQ-4tGxPW">intuitivo</a>, <a href="https://creativecommons.org/publicdomain/mark/1.0/">Legal</a></p>
+<h1>Riff-Win.com
+	<img id="guitar" src="images/guitar.png" alt="guitar">
+</h1>
+	<div>
+		<p>Photo by: Flickr user <a href="https://www.flickr.com/photos/intuitivo/1089286318/in/photolist-2EfSSA-g6uDg-5brGt2-g6uDi-cQ974G-DfboVd-5bvZcC-4ifoom-cs5xjq-7weg5c-cs5wPw-5C28Jz-z7fem-4GycQx-7KquSE-cs5wZ9-6AxSYt-cs5xbo-5gyvBS-9sMtEi-szxt28-4MsfJw-96BRFh-7NdwzR-bE9cjz-5wz1fC-59MvTK-9hZV3C-9x1w1W-AcymNT-9wXwbR-4rB6rr-qKQe3-wHYny-eRBrEH-GpRFqT-5guaJx-7TWiHv-aw2ZUr-9N5rnF-M5naR-nNYT2t-7exck7-nQKEdV-59NJEA-myUXdp-oknWzy-BQjYTr-nM1HPQ-4tGxPW">intuitivo</a>, <a href="https://creativecommons.org/publicdomain/mark/1.0/">Legal</a></p>
+	</div>
 <div>
-<form name="Guitar" action="custom.html" method="post">
+<form id="form" name="Guitar" action="custom.html" method="post">
 <fieldset>
 <div>
       <label>Guitar Model:</label>
@@ -18,20 +21,20 @@
         <option value="shred">Telecaster</option>
         <option value="shred">Les Paul</option>
       </select>
-    </div>
- <div>
+</div>
+<div>
  	<label>Username:</label>
       <input type="text" name="username">
- </div>
- <div>
+</div>
+<div>
       <input type="checkbox" name="user-agree" value="agree">
       I want to see this guitar.
 </div>
 </fieldset>
 <button type="submit">I want to take a look!</button>
 </form>
-<h2>This is my site open to all guitar discussions. Topics include:</h2>
-<ul>
+<h2 class="format3">This is my site open to all guitar discussions. Topics include:</h2>
+<ul style="list-style-position: inside" class="format2">
 	<li>Riffs</li>
 	<li>Scales</li>
 	<li><a href="custom.html">Customization</a></li>
@@ -39,27 +42,30 @@
 	<li>Video Demos</li>
 </ul>
 </div>
-<p>Overall this site is for you guitar players out there.  Feel free to form your own communities and discussion topics related to all rock genres.</p>
+<p class="format1">This site is for you guitar players out there.  Feel free to form your own communities and discussion topics related to all rock genres.</p>
 <br />
 <br />
 <br />
-<a href="http://www.strat-talk.com/">Strat Talk</a> is a great site for Fender enthusiasts to engage in meaningful conversation with like minded individuals. Some of the elements unfamiliar to me are:
-	<ul>
+<div id="stratformat">
+<a class="format3" href="http://www.strat-talk.com/">Strat Talk</a> 
+<p class="format2">Strat Talk is a great site for Fender enthusiasts to engage in meaningful conversation with like minded individuals.</p><p class="format2">Some of the elements unfamiliar to me are:</p>
+	<ul style="list-style-position: inside" class="format2">
 		<li>Use of CSS code to polish the overall site</li>
 		<li>I see the addition of Javascript to provide functionality and user input since it is in blog format</li>
 		<li>Body class function (which I assume is an element of CSS for customization)</li>
 	</ul>
-<p>Elements that are familiar to me include</p>
-	<ul>
+<p class="format2">Elements that are familiar to me include:</p>
+	<ul style="list-style-position: inside" class="format2">
 		<li>Basic html structure</li>
 		<li>Use of forms for user id input</li>
 		<li>img commands to input images</li>
 		<li>Link references to other pages as well as other users</li>
 	</ul>
-<p>What is great about Strat Talk is that it provides a very organized format for a blog site. All current/hot discussion posts are listed directly on the homepage. Navigation is very easy and effortless and is definitely user friendly. The element I believe could be improved is the sites images, adds, and format. It just seems to be a slight bit outdated and could use some revamping for a more modern audience.</p>
+<p class="format2">What is great about Strat Talk is that it provides a very organized format for a blog site. All current/hot discussion posts are listed directly on the homepage. Navigation is very easy and effortless and is definitely user friendly. The element I believe could be improved is the sites images, adds, and format. It just seems to be a slight bit outdated and could use some revamping for a more modern audience.</p>
+</div>
 <br />
 <br />
 <br />
-<footer><a href="custom.html">Guitar Customization</a></footer>
+<footer class="footer"><a href="custom.html">Guitar Customization</a></footer>
 </body>
 </html>
